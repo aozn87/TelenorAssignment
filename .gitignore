@@ -1,0 +1,22 @@
+# Build folders
+bin/
+obj/
+
+# VS Code folder
+.vscode/
+
+# User files
+*.user
+*.suo
+
+# Compilation Outputs
+*.dll
+*.exe
+*.pdb
+
+# Test results
+TestResults/
+
+# Other
+*.db
+*.log
