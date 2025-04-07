@@ -1,0 +1,67 @@
+{
+  "uuid": "e79f4dd1-91ff-4a8f-b895-d482afb7136d-tr-0-1001",
+  "historyId": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "fullName": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.SimpleWorkItem"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfBredBand5GIsAvailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BredbandAvailabilityTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfBredBand5GIsAvailable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a data-v-98ad9e84=\"\" data-v-3e2b3e3c=\"\" href=\"/handla/bredband/\" class=\"cnt-link tn-page-header__secondary-item__link tn-page-header__secondary-item__link--has-children\" target=\"_self\">...</a> is not clickable at point (850, 182). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: chrome=134.0.6998.167)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HandlaPage.ClickBredband() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HandlaPage.cs:line 18\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 21\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfBredBand5GIsAvailable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a data-v-98ad9e84=\"\" data-v-3e2b3e3c=\"\" href=\"/handla/bredband/\" class=\"cnt-link tn-page-header__secondary-item__link tn-page-header__secondary-item__link--has-children\" target=\"_self\">...</a> is not clickable at point (850, 182). Other element would receive the click: <div id=\"onetrust-policy-text\">...</div>\n  (Session info: chrome=134.0.6998.167)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HandlaPage.ClickBredband() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HandlaPage.cs:line 18\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 21\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "312f3f8616174e6699b21b3822983c05-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743810766730,
+      "stop": 1743810808929
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743810766729,
+  "stop": 1743810808931
+}

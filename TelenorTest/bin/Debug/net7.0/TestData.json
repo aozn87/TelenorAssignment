@@ -1,0 +1,6 @@
+﻿{
+  "BaseUrl": "https://www.telenor.se",
+  "DefaultAddress": "STORGATAN 1,UPPSALA",
+  "validAddress": "STORGATAN 1,UPPSALA",
+  "ExpectedProduct": "Bredband via 5G"
+}

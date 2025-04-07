@@ -1,0 +1,67 @@
+{
+  "uuid": "b336f1e6-6113-412b-a141-2c8386d8a589-tr-0-1001",
+  "historyId": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "fullName": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfBredBand5GIsAvailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BredbandAvailabilityTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfBredBand5GIsAvailable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-98ad9e84=\"\" data-v-98ad9e84-s=\"\" role=\"img\" aria-hidden=\"true\" class=\"cnt-link__icon cnt-link__icon--align-right icon-angle-down\"></span> is not clickable at point (345, 69). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=134.0.6998.167)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfBredBand5GIsAvailable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <span data-v-98ad9e84=\"\" data-v-98ad9e84-s=\"\" role=\"img\" aria-hidden=\"true\" class=\"cnt-link__icon cnt-link__icon--align-right icon-angle-down\"></span> is not clickable at point (345, 69). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=134.0.6998.167)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "ede64314fda346aeb545ea5e6ca4f84f-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743802297352,
+      "stop": 1743802312294
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743802297351,
+  "stop": 1743802312296
+}

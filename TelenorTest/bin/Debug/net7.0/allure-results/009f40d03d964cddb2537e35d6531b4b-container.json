@@ -1,0 +1,44 @@
+{
+  "uuid": "4caacb93-e57f-4454-b7a2-e135d3511b79-tc-0-1000",
+  "name": "TelenorTest.Tests.BroadbandTest.Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "children": [
+    "71d2f3ea-d01b-414e-8418-d5da3ca11fdd-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "SetUp",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743980955879,
+      "stop": 1743980955879
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743980955880,
+      "stop": 1743980955880
+    }
+  ],
+  "links": [],
+  "start": 1743980945479,
+  "stop": 1743980955901
+}

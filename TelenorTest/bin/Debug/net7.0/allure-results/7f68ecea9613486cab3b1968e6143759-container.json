@@ -1,0 +1,46 @@
+{
+  "uuid": "188bcf2a-87c1-4e55-ab7c-7a33506675c9-tc-0-1000",
+  "name": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "children": [
+    "0319abc4-74e4-496f-8fc3-ac909e2519e2-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.WebDriverArgumentException : invalid argument\n  (Session info: chrome=134.0.6998.167)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.Navigator.GoToUrlAsync(String url)\n   at OpenQA.Selenium.Navigator.<>c__DisplayClass6_0.<<GoToUrl>b__0>d.MoveNext()\n--- End of stack trace from previous location ---\n   at OpenQA.Selenium.Navigator.GoToUrl(String url)\n   at TelenorTests.BasePage.Setup() in /Users/aho/Projects/TelenorTest/TelenorTest/BasePage.cs:line 22\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743800995763,
+      "stop": 1743800995763
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743800995764,
+      "stop": 1743800995764
+    }
+  ],
+  "links": [],
+  "start": 1743800994010,
+  "stop": 1743800995786
+}

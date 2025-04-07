@@ -1,0 +1,35 @@
+JSON PATH: /Users/aho/Projects/TelenorTest/TelenorTest/bin/Debug/net7.0/TestData.json
+FILE EXISTS: True
+RAW JSON: {
+  "BaseUrl": "https://www.telenor.se",
+  "DefaultAddress": "STORGATAN 1,UPPSALA",
+  "validAddress": "STORGATAN 1,UPPSALA",
+  "ExpectedProduct": "Bredband via 5G"
+}
+
+Loaded BaseUrl: https://www.telenor.se
+Loaded DefaultAddress: STORGATAN 1,UPPSALA
+[DEBUG] Test data path: /Users/aho/Projects/TelenorTest/TelenorTest/bin/Debug/net7.0/TestData.json
+[DEBUG] Raw JSON:
+{
+  "BaseUrl": "https://www.telenor.se",
+  "DefaultAddress": "STORGATAN 1,UPPSALA",
+  "validAddress": "STORGATAN 1,UPPSALA",
+  "ExpectedProduct": "Bredband via 5G"
+}
+
+Test verileri yüklendi:
+ - BaseUrl = 'https://www.telenor.se'
+ - DefaultAddress = 'STORGATAN 1,UPPSALA'
+ - validAddress = 'STORGATAN 1,UPPSALA'
+ - ExpectedProduct = 'Bredband via 5G'
+>>> [DEBUG] expectedProduct = 'Bredband via 5G'
+Adres giriliyor: STORGATAN 1,UPPSALA
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 1
+Teklif kartları bekleniyor...
+Ürün bulundu: Bredband via 5G

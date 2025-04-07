@@ -1,0 +1,67 @@
+{
+  "uuid": "befab356-df7a-4268-a2ae-4c6284915e0d-tr-0-1001",
+  "historyId": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "fullName": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfBredBand5GIsAvailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BredbandAvailabilityTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfBredBand5GIsAvailable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Bredband 5G is not available for the given address!\nAssert.That(isAvailable, Is.True)\n  Expected: True\n  But was:  False\n",
+    "trace": "   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 26\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfBredBand5GIsAvailable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Bredband 5G is not available for the given address!\nAssert.That(isAvailable, Is.True)\n  Expected: True\n  But was:  False\n",
+        "trace": "   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 26\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "15f6119651b646f8b5cc7b481fae24da-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743806529731,
+      "stop": 1743806544362
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743806529731,
+  "stop": 1743806544364
+}

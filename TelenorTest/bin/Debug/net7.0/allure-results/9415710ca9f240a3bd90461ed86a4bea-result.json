@@ -1,0 +1,67 @@
+{
+  "uuid": "819908ab-f66f-4173-b3f7-f62233403f80-tr-0-1001",
+  "historyId": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "fullName": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfBredBand5GIsAvailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BredbandAvailabilityTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfBredBand5GIsAvailable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+    "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\n   at TelenorTests.Pages.HomePage.get_HandlaLink() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 15\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfBredBand5GIsAvailable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.InvalidSelectorException : Compound class names not allowed. Cannot have whitespace in class name. Use CSS selectors instead.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception",
+        "trace": "   at OpenQA.Selenium.By.ClassName(String classNameToFind)\n   at TelenorTests.Pages.HomePage.get_HandlaLink() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 15\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "3069cb6955dd4ad18c82cbc8ab8bfdf0-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743804164797,
+      "stop": 1743804179721
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743804164796,
+  "stop": 1743804179724
+}

@@ -1,0 +1,44 @@
+{
+  "uuid": "31822783-993b-4810-9313-cbb4b7f22c44-tc-0-1000",
+  "name": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "children": [
+    "3d726573-37e8-4fda-a3fa-bc94abe5e3d5-tr-0-1001"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743812319697,
+      "stop": 1743812319697
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743812319698,
+      "stop": 1743812319698
+    }
+  ],
+  "links": [],
+  "start": 1743812312189,
+  "stop": 1743812319719
+}

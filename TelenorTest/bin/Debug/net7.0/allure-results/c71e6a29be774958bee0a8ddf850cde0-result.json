@@ -1,0 +1,67 @@
+{
+  "uuid": "de84cc1c-e2d2-4cc8-8cf1-983072d6190f-tr-0-1001",
+  "historyId": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "fullName": "TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.SimpleWorkItem"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTests.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "CheckIfBredBand5GIsAvailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BredbandAvailabilityTest"
+    }
+  ],
+  "links": [],
+  "name": "CheckIfBredBand5GIsAvailable",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a data-v-98ad9e84=\"\" data-v-a1f33bb6=\"\" href=\"/handla/\" class=\"cnt-link tn-page-header__main-item__link d-flex tn-page-header__main-item__link--has-children\" target=\"_self\" data-test=\"Handla\">...</a> is not clickable at point (316, 70). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=134.0.6998.167)",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "CheckIfBredBand5GIsAvailable",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "OpenQA.Selenium.ElementClickInterceptedException : element click intercepted: Element <a data-v-98ad9e84=\"\" data-v-a1f33bb6=\"\" href=\"/handla/\" class=\"cnt-link tn-page-header__main-item__link d-flex tn-page-header__main-item__link--has-children\" target=\"_self\" data-test=\"Handla\">...</a> is not clickable at point (316, 70). Other element would receive the click: <div class=\"onetrust-pc-dark-filter ot-fade-in\" style=\"z-index:2147483645;\"></div>\n  (Session info: chrome=134.0.6998.167)",
+        "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.InternalExecute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebElement.Click()\n   at TelenorTests.Pages.HomePage.ClickHandla() in /Users/aho/Projects/TelenorTest/TelenorTest/Pages/HomePage.cs:line 19\n   at TelenorTests.Tests.BredbandAvailabilityTest.CheckIfBredBand5GIsAvailable() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BredbandAvailabilityTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c500d3c750df4c5b9ad9e0bd1bf5598e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743802025006,
+      "stop": 1743802089526
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743802025006,
+  "stop": 1743802089528
+}

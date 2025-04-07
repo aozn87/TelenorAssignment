@@ -1,0 +1,81 @@
+{
+  "uuid": "0395ac07-d231-4458-88a6-9203cc7fe14a-tr-0-1001",
+  "historyId": "TelenorTest.Tests.BroadbandTest.Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "fullName": "TelenorTest.Tests.BroadbandTest.Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected"
+    },
+    {
+      "name": "testClass",
+      "value": "BroadbandTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "aho"
+    },
+    {
+      "name": "suite",
+      "value": "Broadband Tests"
+    }
+  ],
+  "links": [],
+  "name": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": ""
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "c2294923673343828f07259790733a93-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743987266422,
+      "stop": 1743987275922
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743987266421,
+  "stop": 1743987275926
+}

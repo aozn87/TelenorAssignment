@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{30B504C4-CFBC-43E1-9C82-640F485D0652}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelenorTest/Pages/BroadbandPage.cs">
+    <Files>
+      <File FileName="TelenorTest/Pages/HomePage.cs" Line="3" Column="1" />
+      <File FileName="TelenorTest/Pages/HandlaPage.cs" Line="2" Column="34" />
+      <File FileName="TelenorTest/Tests/BroadbandTest.cs" Line="26" Column="76" />
+      <File FileName="TelenorTest/Pages/AddressSearchPage.cs" Line="95" Column="57" />
+      <File FileName="TelenorTest/Utilities/TestDataReader.cs" Line="4" Column="2" />
+      <File FileName="TelenorTest/Utilities/ScreenshotHelper.cs" Line="30" Column="60" />
+      <File FileName="TelenorTest/Utilities/TestData.cs" Line="26" Column="49" />
+      <File FileName="TelenorTest/Utilities/WaitHelper.cs" Line="1" Column="1" />
+      <File FileName="TelenorTest/Utilities/WebDriverFactory.cs" Line="1" Column="1" />
+      <File FileName="TelenorTest/TelenorTests.csproj" Line="1" Column="1" />
+      <File FileName="TelenorTest/TestData.json" Line="1" Column="1" />
+      <File FileName="TelenorTest/Tests/BaseTest.cs" Line="27" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TelenorTest">
+            <Node name="TelenorTests" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TelenorTests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

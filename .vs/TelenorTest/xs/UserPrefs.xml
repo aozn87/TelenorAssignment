@@ -1,0 +1,45 @@
+﻿<Properties StartupConfiguration="{30B504C4-CFBC-43E1-9C82-640F485D0652}|Default">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="TelenorTest/BasePage.cs">
+    <Files>
+      <File FileName="TelenorTest/Pages/HomePage.cs" Line="17" Column="3" />
+      <File FileName="TelenorTest/Pages/HandlaPage.cs" Line="18" Column="1" />
+      <File FileName="TelenorTest/Pages/AdressSearchPage.cs" Line="15" Column="6" />
+      <File FileName="TelenorTest/BasePage.cs" Line="26" Column="6" />
+      <File FileName="TelenorTest/Test/BredbandAvailabilityTest.cs" Line="23" Column="43" />
+      <File FileName="TelenorTest/TelenorTests.csproj" Line="33" Column="29" />
+      <File FileName="TelenorTest/Usings.cs" Line="1" Column="1" />
+      <File FileName="../aoNewPro/SeleniumLearning/FunctionalTest.cs" Line="31" Column="4" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TelenorTest" expanded="True">
+            <Node name="TelenorTests" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="Tests" expanded="True">
+                <Node name="BredbandAvailabilityTest.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="TelenorTest">
+            <Node name="TelenorTests" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.TelenorTests PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

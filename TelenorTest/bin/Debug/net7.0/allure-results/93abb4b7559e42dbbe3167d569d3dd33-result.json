@@ -1,0 +1,84 @@
+{
+  "uuid": "f3a478b1-d72a-4207-bb66-66e94f04f9a4-tr-0-1001",
+  "historyId": "TelenorTest.Tests.BroadbandTest.Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "fullName": "TelenorTest.Tests.BroadbandTest.Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AH-MacBook-Pro"
+    },
+    {
+      "name": "package",
+      "value": "TelenorTest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected"
+    },
+    {
+      "name": "testClass",
+      "value": "BroadbandTest"
+    },
+    {
+      "name": "tag",
+      "value": "Smoke"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "owner",
+      "value": "aho"
+    },
+    {
+      "name": "suite",
+      "value": "Broadband Tests"
+    }
+  ],
+  "links": [],
+  "name": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.TypeInitializationException : The type initializer for 'TelenorTest.Utilities.TestData' threw an exception.\n  ----> System.IO.FileNotFoundException : Could not find file '/Users/aho/Projects/TelenorTest/TelenorTest/bin/Debug/net7.0/TestData.json'.",
+    "trace": "   at TelenorTest.Utilities.TestData.get_BaseUrl() in /Users/aho/Projects/TelenorTest/TelenorTest/Utilities/TestData.cs:line 17\n   at TelenorTest.Tests.BaseTest.SetUp() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BaseTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--FileNotFoundException\n   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\n   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)\n   at System.IO.File.ReadAllText(String path, Encoding encoding)\n   at TelenorTest.Utilities.TestData..cctor() in /Users/aho/Projects/TelenorTest/TelenorTest/Utilities/TestData.cs:line 13"
+  },
+  "stage": "finished",
+  "description": "\nSetUp SetUp method failed\n",
+  "steps": [
+    {
+      "name": "Should_Display5GOffer_When_ValidAddressAndApartmentSelected skipped because of SetUp failure",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.TypeInitializationException : The type initializer for 'TelenorTest.Utilities.TestData' threw an exception.\n  ----> System.IO.FileNotFoundException : Could not find file '/Users/aho/Projects/TelenorTest/TelenorTest/bin/Debug/net7.0/TestData.json'.",
+        "trace": "   at TelenorTest.Utilities.TestData.get_BaseUrl() in /Users/aho/Projects/TelenorTest/TelenorTest/Utilities/TestData.cs:line 17\n   at TelenorTest.Tests.BaseTest.SetUp() in /Users/aho/Projects/TelenorTest/TelenorTest/Tests/BaseTest.cs:line 19\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\n   at System.Reflection.MethodInvoker.Invoke(Object obj, IntPtr* args, BindingFlags invokeAttr)\n--FileNotFoundException\n   at Interop.ThrowExceptionForIoErrno(ErrorInfo errorInfo, String path, Boolean isDirError)\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String path, OpenFlags flags, Int32 mode, Func`4 createOpenException)\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, UnixFileMode openPermissions, Int64& fileLength, UnixFileMode& filePermissions, Func`4 createOpenException)\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize, Nullable`1 unixCreateMode)\n   at System.IO.StreamReader.ValidateArgsAndOpenPath(String path, Encoding encoding, Int32 bufferSize)\n   at System.IO.File.ReadAllText(String path, Encoding encoding)\n   at TelenorTest.Utilities.TestData..cctor() in /Users/aho/Projects/TelenorTest/TelenorTest/Utilities/TestData.cs:line 13"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e392e7c27b7f4c528ec426acc387d474-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1743975046155,
+      "stop": 1743975050673
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1743975046154,
+  "stop": 1743975050677
+}

@@ -1,0 +1,14 @@
+Testdata loaded:
+ - BaseUrl = 'https://www.telenor.se'
+ - DefaultAddress = 'STORGATAN 1,UPPSALA'
+ - validAddress = 'STORGATAN 1,UPPSALA'
+ - ExpectedProduct = 'Bredband via 5G'
+>>> [DEBUG] expectedProduct = 'Bredband via 5G'
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 0
+Offers Count: 1
+Product found: Bredband via 5G
