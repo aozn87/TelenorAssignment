@@ -7,10 +7,10 @@ namespace TelenorTest.Tests
 {
     public class BaseTest
     {
-        protected IWebDriver _driver;
-        protected HomePage _homePage;
-        protected BroadbandPage _broadbandPage;
-        protected CookiesPopup _cookiesPopup;
+        protected IWebDriver _driver = null!;
+        protected HomePage _homePage = null!;
+        protected BroadbandPage _broadbandPage = null!;
+        protected CookiesPopup _cookiesPopup = null!;
 
         [SetUp]
         public void SetUp()
@@ -39,7 +39,7 @@ namespace TelenorTest.Tests
                 ScreenshotHelper.TakeScreenshot(_driver, testContext.Test.Name);
             }
             _driver?.Quit();
-            _driver.Dispose();
+            _driver?.Dispose();
         }
     }
 }

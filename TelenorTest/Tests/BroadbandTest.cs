@@ -1,18 +1,10 @@
-﻿using NUnit.Allure.Attributes;
-using NUnit.Allure.Core;
-using TelenorTest.Utilities;
-using Allure.Commons;
+﻿using TelenorTest.Utilities;
 
 namespace TelenorTest.Tests
 {
-    [AllureNUnit]
-    [AllureSuite("Broadband Tests")]
     public class BroadbandTest : BaseTest
     {
         [Test]
-        [AllureTag("Smoke")]
-        [AllureSeverity(SeverityLevel.critical)]
-        [AllureOwner("aho")]
         public void Should_Display5GOffer_When_ValidAddressAndApartmentSelected()
         {
             _homePage.NavigateToBroadbandPage();

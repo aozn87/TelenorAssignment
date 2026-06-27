@@ -4,7 +4,7 @@ namespace TelenorTest.Utilities
 {
     public class TestDataReader
     {
-        private static dynamic _testData;
+        private static dynamic? _testData;
 
         static TestDataReader()
         {
@@ -12,6 +12,6 @@ namespace TelenorTest.Utilities
             _testData = JsonConvert.DeserializeObject<dynamic>(json);
         }
 
-        public static string Get(string key) => _testData[key];
+        public static string Get(string key) => _testData?[key]?.ToString() ?? string.Empty;
     }
 }

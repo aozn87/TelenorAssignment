@@ -5,7 +5,7 @@ namespace TelenorTest.Utilities
 {
     public static class TestData
     {
-        private static JObject _testData;
+        private static JObject? _testData;
 
         static TestData()
         {
@@ -31,8 +31,8 @@ namespace TelenorTest.Utilities
             }
         }
 
-        public static string BaseUrl => _testData["BaseUrl"]?.ToString();
-        public static string DefaultAddress => _testData["DefaultAddress"]?.ToString();
+        public static string BaseUrl => _testData?["BaseUrl"]?.ToString() ?? string.Empty;
+        public static string DefaultAddress => _testData?["DefaultAddress"]?.ToString() ?? string.Empty;
 
 
     }
